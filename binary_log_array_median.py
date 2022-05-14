@@ -21,7 +21,7 @@ def brutal_force(nums1: List(int), nums2: List(int)) -> float:
         return (list[i - 1] + list[i]) / 2
 
 
-# O(min(m, n))
+# O(log(min(m, n)))
 def log(nums1: List(int), nums2: List(int)) -> float:
     a, b = nums1, nums2
     total = len(nums1) + len(nums2)
