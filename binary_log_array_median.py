@@ -34,11 +34,11 @@ def log(nums1: List(int), nums2: List(int)) -> float:
         i = (l + r) // 2
         j = half - i - 2
         print(i, j)
-        a_l = a[i] if i >= 0 else float('-infinity')
-        a_r = a[i + 1] if (i + 1) < len(a) else float('infinity')
+        a_l = a[i] if i >= 0 else float('-inf')
+        a_r = a[i + 1] if (i + 1) < len(a) else float('inf')
         print('a_l r', a_l, a_r)
-        b_l = b[j] if j >= 0 else float('-infinity')
-        b_r = b[j + 1] if (j + 1) < len(b) else float('infinity')
+        b_l = b[j] if j >= 0 else float('-inf')
+        b_r = b[j + 1] if (j + 1) < len(b) else float('inf')
         print('b_l r', b_l, b_r)
         if a_l <= b_r and b_l <= a_r:
             if total % 2:
