@@ -12,8 +12,8 @@ algorithm/brutal force:
 int(reversed(str(s)))
 '''
 def reverse(x: int) -> int:
-    # -2^31, 2^31
-    min, max = -2147483648, 2147483648
+    # -2^31, 2^31 - 1
+    min, max = -2147483648, 2147483647
     print(min, max)
     res = 0
 
