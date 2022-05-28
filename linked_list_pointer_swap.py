@@ -5,9 +5,8 @@ head = [1,2,3,4]
 '''
 output = [2,1,4,3] use pointer, not val!
 algorithm/brutal force: # visual
-dummy for i in l:
-    l[i].next = l[i + 1] l[i + 1].next = l[i] break
-    ret dummy.next
+dummy prev, curr, next_pair = c.n.n second = c.n
+s.n = c p.n = s p = c c = np ret dummy.next
 '''
 
 class ListNode:
